@@ -10,7 +10,7 @@ const Books = () => {
 
          <div class="swiper course-slider">
                <div class="swiper-slide slide">
-                  <img src={course1} alt="" />
+                  <img src={course2} alt="" />
                   <h3>Front End</h3>
                   <p>
                      A architects and develops websites and applications using web
@@ -19,7 +19,7 @@ const Books = () => {
                </div>
 
                <div class="swiper-slide slide">
-                  <img src={course2} alt="" />
+                  <img src={course1} alt="" />
                   <h3>Back End</h3>
                   <p>
                      are the experts who build and maintain the mechanisms that process
