@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -8,11 +9,11 @@ const Footer = () => {
    <section>
 
       <div class="share">
-         <a href="#" class="fab fa-facebook-f"></a>
-         <a href="#" class="fab fa-twitter"></a>
-         <a href="#" class="fab fa-linkedin"></a>
-         <a href="#" class="fab fa-instagram"></a>
-         <a href="#" class="fab fa-youtube"></a>
+         <Link to='/'><i class="fab fa-facebook-f"></i></Link>
+         <Link to='/'><i class="fab fa-twitter"></i></Link>
+         <Link to='/'><i class="fab fa-linkedin"></i></Link>
+         <Link to='/'><i class="fab fa-instagram"></i></Link>
+         <Link to='/'><i class="fab fa-youtube"></i></Link>
       </div>
 
       <div class="credit">&copy; copyright @ 2022 by <span>Taki Hiroo</span> | all rights reserved!</div>
