@@ -10,7 +10,7 @@ const About = () => {
 
         <div className='content'>
           <h3 className='what'>What is.</h3>
-          <h2 className='title-description'>Code Archive</h2>
+          <span className='title-description'>Code Archive</span>
           <p>
             Is a online library full of history and more about different
             programming languages. this is made for the beginners and to solve
