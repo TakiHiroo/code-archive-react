@@ -6,13 +6,13 @@ import course4 from '../images/course-4.svg'
 import { Link } from 'react-router-dom'
 const Books = () => {
    return (
-      <section class="courses" id="course">
-         <h1 class="heading" id="course-heading">our <span>courses</span></h1>
+      <section className='courses' id='course'>
+         <h1 className='heading' id='course-heading'>our <span>courses</span></h1>
 
-         <div class="swiper course-slider">
+         <div className='swiper course-slider'>
             <Link to='/front'>
-               <div class="swiper-slide slide">
-                  <img src={course1} alt="" />
+               <div className='swiper-slide slide'>
+                  <img src={course1} alt='' />
                   <h3>Front End</h3>
                   <p>
                      A architects and develops websites and applications using web
@@ -21,8 +21,8 @@ const Books = () => {
                </div>
             </Link>
             <Link to='/back'>
-               <div class="swiper-slide slide">
-                  <img src={course2} alt="" />
+               <div className='swiper-slide slide'>
+                  <img src={course2} alt='' />
                   <h3>Back End</h3>
                   <p>
                      are the experts who build and maintain the mechanisms that process
@@ -31,8 +31,8 @@ const Books = () => {
                </div>
             </Link>
             <Link to='/data'>
-               <div class="swiper-slide slide">
-                  <img src={course3} alt="" />
+               <div className='swiper-slide slide'>
+                  <img src={course3} alt='' />
                   <h3>Database Engineer</h3>
                   <p>
                      are responsible for the design, programming, construction, and
@@ -41,8 +41,8 @@ const Books = () => {
                </div>
             </Link>
             <Link to='/front'>
-               <div class="swiper-slide slide">
-                  <img src={course4} alt="" />
+               <div className='swiper-slide slide'>
+                  <img src={course4} alt='' />
                   <h3>UI/UX and graphic design</h3>
                   <p>
                      create the user interface for an app, website, or other

@@ -3,35 +3,35 @@ import contact from '../images/contact-img.svg'
 
 const Feeds = () => {
   return (
-<section class="contact">
-      <h1 class="heading" id="heading"><span>contact</span> us</h1>
+<section className='contact'>
+      <h1 className='heading' id='heading'><span>contact</span> us</h1>
 
-      <div class="row" id="contact">
-        <div class="image">
-          <img src={contact} alt="" />
+      <div className='row' id='contact'>
+        <div className='image'>
+          <img src={contact} alt='' />
         </div>
 
-        <form action="" method="post">
+        <form action='' method='post'>
           <span>your name</span>
           <input
-            type="text"
+            type='text'
             required
-            placeholder="enter your full name"
-            maxlength="50"
-            name="name"
-            class="box"
+            placeholder='enter your full name'
+            maxLength='50'
+            name='name'
+            className='box'
           />
           <span>your email</span>
           <input
-            type="email"
+            type='email'
             required
-            placeholder="enter your valie email"
-            maxlength="50"
-            name="email"
-            class="box"
+            placeholder='enter your valie email'
+            maxLength='50'
+            name='email'
+            className='box'
           />
-          <textarea name="comment" id="" cols="30" rows="10"class="box"></textarea>
-          <input type="submit" value="send message" class="btn" name="send" />
+          <textarea name='comment' id='' cols='30' rows='10'className='box'></textarea>
+          <input type='submit' value='send message' className='btn' name='send' />
         </form>
       </div>
     </section>

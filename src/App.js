@@ -1,4 +1,4 @@
-import ReactDOM from "react-dom/client";
+import React from 'react'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 import Home from "./Home";
@@ -7,6 +7,7 @@ import Back from './pages/back/Back'
 import Data from "./pages/data/Data";
 
 export default function App() {
+
   return (
     <BrowserRouter>
       <Routes>
@@ -18,7 +19,3 @@ export default function App() {
     </BrowserRouter>
   );
 }
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);

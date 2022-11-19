@@ -1,19 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const Navmain = () => {
+  
   return (
-    <header class="header">
-      <section class="flex">
-        <a href="index.html" class="logo">Code /\rchive</a>
+    <header className='header'>
+      <section className='flex'>
+        <a href='index.html' className='logo'>Code /\rchive</a>
 
-        <nav class="navbar">
-          <a href="#home">home</a>
-          <a href="#about">about</a>
-          <a href="#course-heading">library</a>
-          <a href="#contact">Feedback</a>
+        <nav className='navbar'>
+          <a href='#home'>home</a>
+          <a href='#about'>about</a>
+          <a href='#course-heading'>library</a>
+          <a href='#contact'>Feedback</a>
         </nav>
 
-        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id='menu-btn' className='fas fa-bars'></div>
       </section>
     </header>
   )

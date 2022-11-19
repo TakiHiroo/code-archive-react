@@ -4,19 +4,19 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
 
-<footer class="footer">
+<footer className='footer'>
 
    <section>
 
-      <div class="share">
-         <Link to='/'><i class="fab fa-facebook-f"></i></Link>
-         <Link to='/'><i class="fab fa-twitter"></i></Link>
-         <Link to='/'><i class="fab fa-linkedin"></i></Link>
-         <Link to='/'><i class="fab fa-instagram"></i></Link>
-         <Link to='/'><i class="fab fa-youtube"></i></Link>
+      <div className='share'>
+         <Link to='/'><i className='fab fa-facebook-f'></i></Link>
+         <Link to='/'><i className='fab fa-twitter'></i></Link>
+         <Link to='/'><i className='fab fa-linkedin'></i></Link>
+         <Link to='/'><i className='fab fa-instagram'></i></Link>
+         <Link to='/'><i className='fab fa-youtube'></i></Link>
       </div>
 
-      <div class="credit">&copy; copyright @ 2022 by <span>Taki Hiroo</span> | all rights reserved!</div>
+      <div className='credit'>&copy; copyright @ 2022 by <span>Taki Hiroo</span> | all rights reserved!</div>
 
    </section>
 
