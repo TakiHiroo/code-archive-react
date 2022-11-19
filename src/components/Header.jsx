@@ -5,7 +5,7 @@ const Header = () => {
     <section class="home">
       <div class="row" id="home">
         <div class="content">
-          <h3>online <span>education</span></h3>
+          <h3>online <br/>library full of <span>Programming</span></h3>
           <a href="/" class="btn">learn it now</a>
         </div>
 

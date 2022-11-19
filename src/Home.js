@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css'
 import About from './components/About'
 import Books from './components/Books'
 import Counter from './components/Counter'
@@ -8,6 +9,7 @@ import Header from './components/Header'
 import Navmain from './components/Navmain'
 
 function Home() {
+  
   return (
     <>
     <Navmain/>

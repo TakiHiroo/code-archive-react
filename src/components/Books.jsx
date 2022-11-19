@@ -3,12 +3,14 @@ import course1 from '../images/course-1.svg'
 import course2 from '../images/course-2.svg'
 import course3 from '../images/course-3.svg'
 import course4 from '../images/course-4.svg'
+import { Link } from 'react-router-dom'
 const Books = () => {
    return (
       <section class="courses" id="course">
          <h1 class="heading" id="course-heading">our <span>courses</span></h1>
 
          <div class="swiper course-slider">
+            <Link to='/front'>
                <div class="swiper-slide slide">
                   <img src={course1} alt="" />
                   <h3>Front End</h3>
@@ -17,7 +19,8 @@ const Books = () => {
                      technologies which run on the Open Web
                   </p>
                </div>
-
+            </Link>
+            <Link to='/back'>
                <div class="swiper-slide slide">
                   <img src={course2} alt="" />
                   <h3>Back End</h3>
@@ -26,7 +29,8 @@ const Books = () => {
                      data and perform actions on websites
                   </p>
                </div>
-
+            </Link>
+            <Link to='/data'>
                <div class="swiper-slide slide">
                   <img src={course3} alt="" />
                   <h3>Database Engineer</h3>
@@ -35,7 +39,8 @@ const Books = () => {
                      implementation of new databases.
                   </p>
                </div>
-
+            </Link>
+            <Link to='/front'>
                <div class="swiper-slide slide">
                   <img src={course4} alt="" />
                   <h3>UI/UX and graphic design</h3>
@@ -44,7 +49,7 @@ const Books = () => {
                      interactive media.
                   </p>
                </div>
-
+            </Link>
          </div>
       </section>
    )
